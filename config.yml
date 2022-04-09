@@ -1,0 +1,11 @@
+# Path to a JSON file with samples and their corresponding FASTQ files.
+SAMPLES_JSON: 'samples.json'
+
+# Full path to the bowtie2 directory
+BOWTIE2_DIR: '~/miniconda3/envs/scimet-snakemake/bin/'
+
+# Full path to the genome fasta file containing all the chromosomes
+BISMARK_REF: '~/OMICS_dinh/sciMETv2/hs38d1_noalt_bismark'
+
+# Minimap mapping quality filter
+MAP_SCORE: '10'
